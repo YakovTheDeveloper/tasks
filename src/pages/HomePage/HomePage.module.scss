@@ -1,0 +1,17 @@
+@import '../../variables.scss';
+
+.parallax {
+  height: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../assets/images/1.webp');
+  font-size: 3rem;
+  color: white;
+  opacity: 0.5;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
